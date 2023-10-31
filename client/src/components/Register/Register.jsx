@@ -25,7 +25,7 @@ function Register() {
     console.log(values)
     try {
       const { data } = await axios.post(
-        "http://localhost:2882/auth/register",
+        "https://adp-foods.onrender.com/auth/register",
         { ...values},
         {withCredentials: true }
       );

@@ -28,7 +28,7 @@ export default function AddProduct() {
     //  formData.append("upload_preset","blogpost")
 
    console.log(formData)
-     await axios.post("http://localhost:2882/products/image",formData,{ headers: {
+     await axios.post("https://adp-foods.onrender.com/products/image",formData,{ headers: {
       'Content-Type': 'multipart/form-data'
   }}
      ).then((response)=>{

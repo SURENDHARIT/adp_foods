@@ -69,12 +69,12 @@ export default function Cart() {
     useEffect(()=>{
         const fetch = async () => {
             try {
-              const cartResponse = await axios.get(`http://localhost:2882/cart/get/${user}`);
+              const cartResponse = await axios.get(`https://adp-foods.onrender.com/cart/get/${user}`);
               setValue(cartResponse.data);
           
               const productIds = cartResponse.data.items.map(item => item.product);
               const productsResponse = await Promise.all(
-                productIds.map(productId => axios.get(`http://localhost:2882/products/get/${productId}`))
+                productIds.map(productId => axios.get(`https://adp-foods.onrender.com/get/${productId}`))
               );
               const products = productsResponse.map(response => response.data);
               setProducts(products);

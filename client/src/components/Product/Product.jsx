@@ -23,7 +23,7 @@ export default function Product() {
     useEffect(()=>{
       setUser(localStorage.getItem('isLoggedIn'))
 
-        axios.get(`http://localhost:2882/products/get/${id}`)
+        axios.get(`https://adp-foods.onrender.com/products/get/${id}`)
         .then((data)=>{
             setData(data.data)
             
