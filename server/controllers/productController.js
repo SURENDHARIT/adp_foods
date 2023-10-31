@@ -2,7 +2,6 @@ const express = require('express')
 const upload = require('../middlewares/upload')
 const {uploadToCloudinary,removeFromCloudinary} =require('../cloudinary')
 const product = require('../models/productModel');
-const { ErrorCode } = require('react-dropzone');
 
 module.exports.AddProduct = async (req, res) => {
         try{  
