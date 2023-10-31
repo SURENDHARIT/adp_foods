@@ -1,0 +1,45 @@
+.navbar{
+    /* position: fixed !important; */
+    top: 0 !important;
+    width: 100% !important;
+}
+
+.navbar-collapse ul{
+    justify-content: center;
+    gap: 80px;
+}
+
+.navbar-collapse{
+    justify-content: center;
+}
+
+.navbar-brand{
+    display: block;
+    width: 150px !important;
+}
+
+.navbar-brand img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.nav-item a{
+    color: white !important;
+    font-weight: bold !important;
+    font-size: large;
+}
+
+.nav-link button {
+    background-color: #FFBA00;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: rgb(173, 23, 23);
+    font-weight: bold;
+    border-radius: 7px;
+    /* padding: 5px; */
+    border: none;
+}
+
+a.login{
+    font-size: larger;
+    color: #FFBA00 !important;
+}

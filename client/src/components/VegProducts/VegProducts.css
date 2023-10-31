@@ -1,0 +1,51 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+
+.search-box{
+    width: 450px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.search-box input{
+    padding: 20px;
+    width: 100%;
+    height: 60px;
+    border-radius: 50px;
+    font-family: 'Comic Neue', cursive;
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+}
+
+.product-card-group{
+    margin-top: 60px !important;
+    display: flex !important;
+    margin: auto !important;
+    justify-content: space-around !important;
+}
+
+
+
+.product-type{
+    color: white;
+    font-weight: bolder;
+    font-size: 2.5em;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .search-box{
+        width: 90% !important;
+    }  
+
+    /* .product-card{
+
+        width: 90% !important;
+    } */
+
+    .product-card-group a{
+        width: 90% !important;
+    }
+}

@@ -1,0 +1,44 @@
+.adv-nv{
+    display: flex;
+    min-height: 100vh;
+    background-image: url('../../images/rangoli.png');
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+
+.adv{
+    width: 40%;
+    margin-top: 10%;
+}
+
+.veg-nv{
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.card-choose{
+    width: 100%;
+}
+
+.card-choose img{
+    width: 80%;
+    object-fit: contain;
+}
+
+.stick-card{
+    width: 40%;
+}
+
+.stick-card img{
+    width: 60%;
+    object-fit: contain;
+    transition: 0.5s;
+}
+
+.stick-card img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    
+}

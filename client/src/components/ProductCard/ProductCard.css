@@ -1,0 +1,93 @@
+.product-card{
+    width: 400px;
+    flex-wrap: wrap;
+    background-color: white;
+    /* height: 200px; */
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.5);
+    display: relative;
+}
+
+.product-card,.card-image,.card__overlay{
+    border-radius: 20px;
+}
+
+.card-image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card__overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    visibility: none;
+    transition: 1s ease;
+    background-color: #3938399a;
+    opacity: 1;
+  }
+
+  .product-buttons{
+    display: none;
+    position: absolute;
+    bottom: 7%;
+    /* left: 35%; */
+    width: 100%;
+    /* transition: 2s; */
+  }
+
+  .card:hover .product-buttons{
+    /* display: block; */
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .card:hover .card__overlay{
+    opacity: 0;
+  }
+  
+  .overlay__text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .product-buttons button{
+    /* background: rgba( 0, 118, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+    transition: all 0.8s;
+
+      /* padding: 10px auto 10px auto ; */
+
+      background: none;
+      border: 2px solid;
+      font: inherit;
+      /* line-height: 1; */
+      margin: 0.5em;
+      padding: 0.5em 1.5em;
+  }
+
+  .product-buttons button:hover{
+    /* padding: 10px 20px 10px 20px !important; */
+    box-shadow: 
+    inset -3.5em 0 0 0 #c8954d,
+    inset 3.5em 0 0 0 #c8954d;  
+  }
+

@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.search-box{
+    width: 450px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.search-box input{
+    padding: 20px;
+    width: 100%;
+    height: 60px;
+    border-radius: 50px;
+    font-family: 'Comic Neue', cursive;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.product-card-group{
+    margin-top: 60px !important;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.product-card-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .product-card{
+    /* flex: 20%; */
+    margin: 1%;
+    padding: 20px;
+    flex-basis: 30%;
+    height: 300px !important;
+    background-color: #f0f0f0;
+  }
+
+  .card-image{
+    height: 100%;
+    object-fit: cover !important;
+  }
+  
+
+  .quote{
+    color: #FFBA00;
+    font-size: 40px;
+    font-weight: 100 !important;
+    font-family: 'Great Vibes', cursive;
+    text-transform: capitalize;
+  }
+
+  .product-type{
+    font-family: "Merry Weather";
+  }

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap');
+
+.about-front
+{
+    min-height: 80vh;
+}
+
+.about-front h2{
+    color:#fff;
+    
+    text-transform: uppercase;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: bolder;
+}
+
+.about-front h2 span{
+    border-bottom: #E5AC15 5px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.about-content{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 7%;
+    color: white;
+    font-family: 'Merriweather', serif;
+    text-align: justify;
+}

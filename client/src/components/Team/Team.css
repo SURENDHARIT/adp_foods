@@ -1,0 +1,26 @@
+.team h2{
+    font-weight: bolder;
+    color: white;
+    font-size: 60px;
+}
+
+.team .adp-logo{
+    width: 100px;
+    margin: auto;
+}
+
+.team .adp-logo img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.team-group{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.grp-1:nth-child(odd)
+{
+    transform: rotateY(180deg);
+}

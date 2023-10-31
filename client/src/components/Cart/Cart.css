@@ -1,0 +1,13 @@
+.my-cart-table
+{
+    background-color: gray;
+    width: 70%;
+    margin: auto;
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+thead,tbody{
+    background-color: grey !important;
+}
