@@ -16,7 +16,7 @@ export default function AdminProducts() {
     const[data,setData] = useState([])
 
     useEffect(()=>{
-        axios.get("https://adp-foods.onrender.com/products/getAll")
+        axios.get("https://adpfoods.onrender.com/products/getAll")
         .then((data)=>{
             console.log(data.data)
             setData(data.data)
