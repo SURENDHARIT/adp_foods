@@ -55,7 +55,7 @@ export default function AdminProducts() {
 
                             <div className="product-buttons mt-3">
                                 <button onClick={()=>{
-                                     axios.delete(`http://localhost:2882/products/delete/${item._id}`)
+                                     axios.delete(`https://adpfoods.onrender.com/products/delete/${item._id}`)
                                      .then((data)=>{
                                          console.log(data)
                                          navigate('/admin/products/')
