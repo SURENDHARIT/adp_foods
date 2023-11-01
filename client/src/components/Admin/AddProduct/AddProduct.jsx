@@ -28,7 +28,7 @@ export default function AddProduct() {
     //  formData.append("upload_preset","blogpost")
 
    console.log(formData)
-     await axios.post("https://adp-foods.onrender.com/products/image",formData,{ headers: {
+     await axios.post("https://adpfoods.onrender.com/products/image",formData,{ headers: {
       'Content-Type': 'multipart/form-data'
   }}
      ).then((response)=>{
@@ -43,7 +43,7 @@ export default function AddProduct() {
 
   console.log(values)
   
-  await axios.post("http://localhost:2882/products/insert",values,{ headers: {
+  await axios.post("https://adpfoods.onrender.com/products/insert",values,{ headers: {
       'Content-Type': 'application/json'
   }}
      ).then((response)=>{
